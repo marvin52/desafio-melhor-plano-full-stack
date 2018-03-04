@@ -1,0 +1,56 @@
+.melhor-plano {
+  text-align: center;
+}
+
+.melhor-plano__logo {
+  margin-top: 30px;
+  height: 40px;
+}
+
+.melhor-plano__header {
+  background: #00b7ab;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.melhor-plano__title {
+  font-size: .8em;
+}
+
+.melhor-plano__intro {
+  font-size: large;
+}
+
+.melhor-plano__card-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.melhor-plano__card{
+  width: 300px;
+  background: #ececec;
+  margin: 20px 0px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.melhor-plano__card-title {
+  margin: 12px;
+}
+.melhor-plano__card-price {
+  font-size: 20px;
+}
+.melhor-plano__card-subscribe{
+  border: 1px solid #00b7ab;
+  background-color: #00b7ab;
+  min-width: 100px;
+  display: block;
+  height: 40px;
+  margin: auto auto;
+  margin-top: 10px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
